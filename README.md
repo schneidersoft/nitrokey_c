@@ -4,7 +4,12 @@ The idea is to ask a smart card to sign a challenge, and to check that the signa
 
 # USAGE:
 
-1. edit the nitrokey to select the correct curve
+0. install deps
+```
+sudo apt install build-essential libpcsclite-dev
+```
+
+2. edit the nitrokey to select the correct curve
 ```
 gpg --card-edit
 gpg/card> admin
