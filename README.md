@@ -6,7 +6,7 @@ The idea is to ask a smart card to sign a challenge, and to check that the signa
 
 0. install deps
 ```
-sudo apt install build-essential libpcsclite-dev
+sudo apt install build-essential libpcsclite-dev gnupg2
 ```
 
 1. edit the nitrokey to select the correct curve
